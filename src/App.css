@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.App li {
+  list-style-type: none;
+}
 
 .App-logo {
   height: 40vmin;
@@ -34,10 +37,5 @@
   }
   to {
     transform: rotate(360deg);
-  }
-}
-.Todo-List {
-  li {
-    list-style-type: none;
   }
 }

@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "name": "Render static ui",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "create initial state",
+      "isComplete": false
+    }
+  ]
+}

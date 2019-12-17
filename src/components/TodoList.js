@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { connect } from "react-redux";
 
 const TodoItem = ({ id, name, isComplete }) => (
   <li>
@@ -20,8 +21,5 @@ const TodoList = props => (
     </ul>
   </div>
 );
-TodoList.propTypes = {
-  todos: PropTypes.array
-};
-
-export default TodoList;
+const connectedApp = connect(state => ({ todos: state.todos }))(TodoList);
+export default connectedApp;

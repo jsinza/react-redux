@@ -8,10 +8,9 @@ function App(props) {
     <div className="App">
       <div className="Todo-App">
         <TodoForm />
-        <TodoList todos={props.todos}/>
+        <TodoList />
       </div>
     </div>
   );
 }
-
 export default App;
